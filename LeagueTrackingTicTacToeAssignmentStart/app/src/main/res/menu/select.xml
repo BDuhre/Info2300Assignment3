@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SelectorActivity">
+
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/themeChange"
+        android:layout_marginTop="500dp"
+        android:icon="?attr/colorControlActivated"
+        android:orderInCategory="100"
+        android:title="@string/theme"
+        android:visible="true"
+        app:showAsAction="never" />
+
+
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/addplay"
+        android:layout_marginTop="900dp"
+        android:icon="?attr/colorControlActivated"
+        android:orderInCategory="100"
+        android:title="@string/addplay"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/selectUpdate"
+        android:layout_marginTop="900dp"
+        android:icon="?attr/colorControlActivated"
+        android:orderInCategory="100"
+        android:title="@string/selectUpdate"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/selectDelete"
+        android:layout_marginTop="900dp"
+        android:icon="?attr/colorControlActivated"
+        android:orderInCategory="100"
+        android:title="@string/selectDelete"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/gameBack"
+        android:layout_marginTop="600dp"
+        android:icon="?attr/colorControlActivated"
+        android:orderInCategory="100"
+        android:title="@string/re"
+        android:visible="true"
+        app:showAsAction="never" />
+</menu>

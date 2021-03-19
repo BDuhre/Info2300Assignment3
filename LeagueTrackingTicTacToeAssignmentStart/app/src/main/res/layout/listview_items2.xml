@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/ListviewItems2"
+    android:background="@color/_light_green"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Listitems1"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="@color/_light_green"
+        android:padding="10sp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/Listitems2"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:background="@color/sky_blue"
+        android:padding="10sp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/Listitems1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/Listitems3"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:background="@color/indian_red"
+        android:padding="10sp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/Listitems2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/Listitems4"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:background="@color/gainsboro"
+        android:padding="10sp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/Listitems3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

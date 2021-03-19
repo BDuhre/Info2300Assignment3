@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+
+    <string name="player_2_0">Player 2: 0</string>
+    <string name="player_1_0">Player 1: 0</string>
+
+    <string name="p1Wins">Player 1 wins!</string>
+    <string name="p2Wins">Player 2 wins!</string>
+    <string name="draw">It is a draw!</string>
+    <string name="newGame">Start a new game!</string>
+    <string name="title_activity_game">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <!--Main-->
+    <string name="startGame">START GAME</string>
+    <string name="view_score">SCOREBOARD</string>
+    <string name="add_Player">ADD PLAYER</string>
+    <string name="select_One">PLAYER ONE</string>
+    <string name="select_Two">PLAYER Two</string>
+    <string name="mainTitle">TIC TAC TOE</string>
+
+    <!--Score Board-->
+    <string name="score1">Name:</string>
+    <string name="score2">Wins:</string>
+    <string name="score3">Loses:</string>
+    <string name="score4">Ties:</string>
+    <string name="All">All: </string>
+    <string name="noPlayers">There are no players to display</string>
+
+    <!--Select player-->
+    <string name="selectOne">Please select player One:</string>
+    <string name="selectTwo">Please select player Two:</string>
+    <string name="select">Selection:</string>
+    <string name="Add">A  D  D</string>
+
+
+    <!--Add player-->
+    <string name="playerNam">Player Name:</string>
+
+    <!--select player-->
+    <string name="selectDelete">Delete player</string>
+    <string name="selectUpdate">Update player name</string>
+    <string name="none">No players to select</string>
+    <string name="re">Return</string>
+    <string name="addplay">Add A Player</string>
+
+    <!--start game strings-->
+    <string name="DefaultText">Player X Turn</string>
+    <string name="startNew">Start a new Match</string>
+    <string name="playerWins">is the winner of this MATCH</string>
+    <string name="Tie">This match is a Draw</string>
+    <string name="xTurn">Player X Turn</string>
+    <string name="oTurn">Player O Turn</string>
+    <string name="oMatch">OOO</string>
+    <string name="xMatch">XXX</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="start">Begin Play:</string>
+    <string name="theme">Change theme</string>
+    <string name="reset">New Match</string>
+    <string name="checkScore">Check Scores</string>
+    <string name="Players">Players</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Error Messages -->
+    <string name="Error1">Empty Field</string>
+    <string name="Error2">Player already Exists.</string>
+    <string name="Error3">Too short of a name</string>
+    <string name="Error4">Too Long of a name</string>
+    <string name="Error5">Not all players selected!</string>
+    <string name="Error6">No player was selected!</string>
+    <string name="Error7">Player can not play themselves</string>
+
+    <!--Success-->
+    <string name="Suc1">Player deleted!</string>
+    <string name="Suc2">Player name updated!</string>
+    <string name="title_activity_score">FullscreenActivity</string>
+    <string name="title_activity_add">FullscreenActivity</string>
+    <string name="title_activity_select">FullscreenActivity</string>
+
+
+</resources>
